@@ -66,6 +66,7 @@ var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/exampl
 
 // Function to play alarm rington
 function ringBell() {
+    alert("Bell is ringing")
     audio.play();
 }
 
