@@ -66,7 +66,6 @@ var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/exampl
 
 // Function to play alarm rington
 function ringBell() {
-    alert("Bell is ringing")
     audio.play();
 }
 
@@ -85,6 +84,7 @@ function ringBell() {
 //     console.log(timeToAlarm);
 //     if(timeToAlarm>=0){
 //         setTimeout(() => {
+                alert('Bell is ringing')
 //             console.log("Ringing now")
 //             ringBell();
 //         }, timeToAlarm);
